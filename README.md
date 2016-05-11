@@ -22,12 +22,12 @@ npm start
 ```
 
 The `npm start` command first compiles the application, 
-then simultaneously re-compiles and runs the `lite-server`.
+then simultaneously re-compiles and runs the node.
 Both the compiler and the server watch for file changes.
 
 Shut it down manually with Ctrl-C.
 
-You're ready to write your application.
+
 
 ### npm scripts
 
@@ -49,4 +49,3 @@ Here are the test related scripts:
 * `npm run e2e` - run protractor e2e tests, written in JavaScript (*e2e-spec.js)
 
 
-Shut it down manually with Ctrl-C.
