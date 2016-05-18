@@ -38,8 +38,7 @@ let config: ExpressEngineConfig = {
 };
 
 // Serve static files
-app.use(express.static(path.join(path.resolve(__dirname, 'dist')), 
-    {index: false}));
+app.use(express.static('.'));
 
 app.use('/', function(req, res){
     config.providers = [
